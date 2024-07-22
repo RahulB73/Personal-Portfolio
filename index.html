@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<script src="https://kit.fontawesome.com/dec32ec356.js" crossorigin="anonymous"></script>
+
+<body>
+
+    <!-- preloader -->
+
+    <div id="preloader"></div>
+    <!-- Main Page -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <image src="Images/Logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Skills</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    <img src="Images/Dark.png" alt="" id="Icon">
+            </nav>
+            <div id="hero">
+                <div class="header-text">
+                    <h1>Hi, I'm <span>Rahul Borkar</span></h1>
+                    <h4>Software Devoloper</h4>
+                </div>
+                <div id="heroimg">
+                    <img src="Images/Rahul.png" alt="heroimg">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/About.jpg" alt="" srcset="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About</h1>
+                    <p>I hope you are doing well. I am writing this letter for having interest in ReactJs/ JavaScript
+                        Developer/ Fresher at MargMaker.<br>
+                        <br>
+
+                        My name is Rahul Borkar. I am from Nagpur, Maharashtra.I completed my bachelor degree in
+                        Engineering in the field of Computer Science from Nagpur University.<br>
+                        <br>
+                        I have good knowledge of Java, C++ and JavaScript Programming Languages. I also worked around
+                        web development using React, JavaScript, HTML, CSS, Node, ExpressJs and MongoDB Database. I am
+                        also good at Cross Native Mobile Application Development using Flutter Framework. I have good
+                        knowledge of tools like SQL, Git, Github. Based on these Skills, I have some certifications and
+                        projects which I mentioned in my resume.<br>
+                        <br>
+                        I am good at planning and executing things. I am adaptive at any workplace with fast learning
+                        ability.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Certification</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span></li>
+                            <li><span>C++</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>ReactJs</span></li>
+                            <li><span>HTML, CSS</span></li>
+                            <li><span>NodeJs</span></li>
+                            <li><span>ExpressJs</span></li>
+                            <li><span>MongoDB</span></li>
+                            <li><span>SQL</span></li>
+                            <li><span>Flutter Framework</span></li>
+                            <li><span>Git / Github</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Full Stack Web Development Certificate</span><br>(10/2022 - 04/2023)<br>Completed
+                                certification on MERN stack development</li>
+                            <li><span>Certificate for SQL Completion</span><br>(12/2021 - 02/2022)<br> Certification for
+                                completion of SQL Basics</li>
+                            <li><span>TFlutter FrameWork Certificate</span><br>(12/2023-
+                                04/2024)<br>Professional cetificate for Flutter Framework</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Engineering (B.E)</span><br>Priyadarshani College of
+                                Engineering,<br>Nagpur (Nagpur University)<br>07/2019 - 06/2023, Percentages -
+                                79.32%<br>Course - Computer Technology</li>
+                            <li><span>12th</span><br>Lokmanya Junior College , Warora<br> 06/2017 - 06/2019, Percentages
+                                - 64.77%<br>Higher Secondary Education (HSC) </li>
+                            <li><span>10th</span><br>Lokmanya Vidyalaya , Warora<br> 06/2016 - 06/2017, Percentages -
+                                77.40<br>Secondary School Certificate (SSC)</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+
+    <div id="services">
+        <div class="container" data-aos="fade-left">
+            <h1 class="sub-title">Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h1>Java</h1>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h1>JavaScript</h1>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h1>ReactJs</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container" data-aos="fade-left">
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-node"></i>
+                    <h1>Nodejs</h1>
+                </div>
+                <div>
+                    <i class="fa-solid fa-leaf"></i>
+                    <h1>ExpressJs</h1>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h1>MongoDB</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container" data-aos="fade-left">
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h1>Flutter</h1>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h1>SQL</h1>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <h1>Git / Github</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list" data-aos="fade-up">
+                <div class="work">
+                    <img src="Images/eccm.png" alt="work1">
+                    <div class="layer">
+                        <h3>LetsShop</h3>
+                        <p>Designed and developed an online product ordering web app with ReactJs as a frontend and
+                            MongoDB for the
+                            database.
+                        </p>
+                        <a href="https://drive.google.com/file/d/1AVM5LwKSKDrLFvIIwYijtOU-JX1BwOpk/view"><i
+                                class="fa-solid fa-paperclip"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/admin.png" alt="work2">
+                    <div class="layer">
+                        <h3>Admin Panel</h3>
+                        <p>Empower administrators with the ability to review and modify order statuses in real-time
+                            using Recharts Library.
+                        </p>
+                        <a href="https://drive.google.com/file/d/1AVM5LwKSKDrLFvIIwYijtOU-JX1BwOpk/view"><i
+                                class="fa-solid fa-paperclip"></i></i></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/moviesnation.png" alt="work3">
+                    <div class="layer">
+                        <h3>Movie Mania</h3>
+                        <p>Design and developed movie search website to see latest, upcoming and top rated movies.
+                        </p>
+                        <a href="https://drive.google.com/file/d/1AVM5LwKSKDrLFvIIwYijtOU-JX1BwOpk/view"><i
+                                class="fa-solid fa-paperclip"></i></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/mediapp.jpg" alt="work3">
+                    <div class="layer">
+                        <h3>Mediapp</h3>
+                        <p>An app for doctors appoitment.
+                        </p>
+                        <a href="https://drive.google.com/file/d/1AVM5LwKSKDrLFvIIwYijtOU-JX1BwOpk/view"><i
+                                class="fa-solid fa-paperclip"></i></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/1AVM5LwKSKDrLFvIIwYijtOU-JX1BwOpk/view" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- contacts -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left" data-aos="fade-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> rahulborkar2001@gmail.com</p>
+                    <p><i class="fa-brands fa-whatsapp"></i> 7387892803</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1AVM5LwKSKDrLFvIIwYijtOU-JX1BwOpk/view"
+                        class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right" data-aos="fade-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="Email" name="Email" placeholder="Enter Your Email" required>
+                        <textarea name="Comments" rows="6" placeholder="Add Your Comments Here"></textarea>
+                        <button type="submit" class="btn btn2 btn3">Submit</button>
+                    </form>
+                    <span id="msg">click here</span>
+                </div>
+            </div>
+        </div>
+        <div class="copywrite" data-aos="fade-up">
+            <p>Copywrite @ Rahul. Made with <i class="fa-solid fa-heart"></i> by Rahul Borkar</p>
+        </div>
+    </div>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyo7m9M_ICmfPQBi3Gf0UElBntyFxx5JEtm1kX63RLxD2yOZDCpF8vQt5CKSFg2hQxn/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Massege Sent Succsessfuly"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+
+        // Adding dark theme script
+
+        var Icon = document.getElementById("Icon");
+        Icon.onclick = function () {
+            document.body.classList.toggle("dark-theme");
+            if (document.body.classList.contains("dark-theme")) {
+                Icon.src = "Images/Day.png";
+            } else {
+                Icon.src = "Images/Dark.png";
+            }
+        }
+    </script>
+
+    <script>
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function () {
+            setInterval(() => { loader.style.display = "none" }, 2000);
+        })
+    </script>
+</body>
+
+</html>
